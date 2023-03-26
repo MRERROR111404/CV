@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abood ALjuaidi</title>
+    <link rel="icon" href="logo-removebg-preview.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel ="stylesheet"href="css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+  <button id="scroll-btn"><i class="fa-solid fa-arrow-up fa-bounce"></i></button>
+
+<header>
+<h1 id="hello">HELLO, WORLD.</h1>
+<h2>I'm Abood Aljuaidi.</h2>
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+<h1 id="job" aria-label="Hi! I'm a developer">
+    I'm a   &nbsp;<span class="typewriter"></span>
+
+</h1>
+<button  onclick="scrollToSection()" id="more">MORE ABOUT ME <span id="down">  👨🏻‍💻</span></button>
+
+
+<ul class="wrapper">
+    <a href="https://web.facebook.com/profile.php?id=100017464234107">
+        <li class="icon facebook">
+          <span class="tooltip">Facebook</span>
+          <span><i class="fab fa-facebook-f"></i></span>
+        </li></a>
+
+        <a href=" https://twitter.com/abood_al_jaidi?t=i95p1azSDAsLQGN4cZymJg&s=08">
+            <li class="icon twitter">
+              <span class="tooltip">Twitter</span>
+              <span><i class="fab fa-twitter"></i></span>
+            </li></a>
+<a href="https://instagram.com/ab00d_aljaidi?igshid=YmMyMTA2M2Y=">  <li class="icon instagram">
+    <span class="tooltip">Instagram</span>
+    <span><i class="fab fa-instagram"></i></span>
+  </li></a>
+  
+  <a href="https://github.com/MRERROR111404">
+    <li class="icon github">
+      <span class="tooltip">Github</span>
+      <span><i class="fab fa-github"></i></span>
+    </li></a>
+  </ul>
+
+</header>
+
+
+<div id="target-section">
+
+<h4 id="about">ABOUT</h4>
+<h3 id="address">Let me introduce myself.</h3>
+
+
+
+<div id="content">
+  <img src="44.jpeg" alt="" height="200px" width="200px">
+  <p>My passion for programming started when I stumbled upon a website and wondered how it was designed and developed. I felt curious to learn more about the world of programming and how it can be used to create amazing technological solutions.  <br>
+    Programming became my never-ending passion after I learned my first programming language and started building small applications.  I found myself constantly seeking opportunities to challenge myself and solve technical problems with creativity and innovation.  
+    I believe that programming is the universal language of the future,   and I always strive to improve my skills and expand my knowledge in this rapidly evolving field.</p>
+</div>
+
+
+
+<div id="pro">
+
+  <div id="profile">
+
+
+    
+  <h3 id="profile1">PROFILE</h3>
+  <h3 id="name">FULLNAME:</h3>
+  <h4 id="ab">Abdalfatah Aljuaidi</h4>
+
+
+
+
+  <h3 id="name">BIRTH DATE:</h3>
+  <h4 id="ab">August 16, 2002</h4>
+
+
+
+
+
+  <h3 id="name"> JOB:</h3>
+  <h4 id="ab">Full stack web developer, Freelancer</h4>
+
+
+
+  <h3 id="name">   MOBILE:</h3>
+  <h4 id="ab">+962782407533</h4>
+
+
+
+
+  <h3 id="name">  EMAIL:</h3>
+  <h4 id="ab">abdalfatah.aljuaidi@gmail.com</h4>
+
+  </div>
+
+  <div id="ex">
+
+    <section class="three">
+      <div class="skills">
+        <h1 id="sk">Skills</h1>
+        <h3 id="bad">HTML</h3>
+        <div class="progress">
+          <span style="width: 0" data-width="90%"></span>
+        </div>
+        <h3>CSS</h3>
+        <div class="progress">
+          <span style="width: 0" data-width="90%"></span>
+        </div>
+        <h3>JavaScript</h3>
+        <div class="progress">
+          <span style="width: 0" data-width="70%"></span>
+        </div>
+        
+        <h3>Bootstrab</h3>
+        <div class="progress">
+          <span style="width: 0" data-width="80%"></span>
+        </div>
+        
+        <h3>React.js</h3>
+        <div class="progress">
+          <span style="width: 0" data-width="70%"></span>
+        
+        </div>
+    
+      </div>
+
+
+ 
+
+   
+    </section>
+  
+  </div>
+
+
+</div>
+<div id="hi"><a id="cv" href="CV.pdf" download>DOWNLOAD CV</a></div>
+
+</div>
+
+
+
+
+<section id="third">
+
+  <h3>PORTFOLIO</h3>
+  <h1>Check Out Some of My Works.</h1>
+
+
+
+
+<br><br><br>
+
+
+<style>
+
+.swiper {
+      width: 50%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+  
+    }
+
+    .swiper-slide {
+      width: 70%;
+    }
+
+    .swiper-slide:nth-child(2n) {
+      width: 70%;
+    }
+
+    .swiper-slide:nth-child(3n) {
+      width: 70%;
+    }
+  </style>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="WhatsApp Image 2023-03-22 at 11.45.39 AM.jpeg" alt="" width="420px" height="450px"></div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2023-03-22 at 11.45.46 AM.jpeg" alt="" width="450px" height="465px"></div>
+      <div class="swiper-slide"><img src="f.jpeg" alt="" width="450px" height="450px"></div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2023-03-22 at 11.46.54 AM.jpeg" alt="" width="450px" height="450px"></div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2023-03-22 at 11.47.04 AM.jpeg" alt="" width="450px" height="450px"></div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2023-03-22 at 11.47.14 AM.jpeg" alt="" width="450px" height="450px"></div><br><br>
+    </div><br>
+    <div class="swiper-pagination"><br> <br></div>  <br><br><br>
+  </div>
+  <br><br><br>  <br><br><br>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+  <div class="counter">
+  
+    <div class="onee">
+      <i class="fa-solid fa-circle-check fa-saucer" style="color: #000000; font-size: 70px; margin-left: 110px;" ></i>
+
+      <div class="counter-item" data-goal="10">0</div>
+      <h2>PROJECTS COMPLETED</h2>
+    </div>
+    
+    <div class="twoo">
+      <i class="fa-solid fa-lightbulb fa-fade" style="color: #000000; font-size: 70px; margin-left: 55px;"></i>
+      <div class="counter-item" data-goal="20">0</div>
+      <h2>CRAZY IDEAS</h2>
+    </div>
+
+    <div class="threee">
+      <i class="fa-solid fa-mug-saucer" style="color: #000000; font-size: 70px; margin-left: 46px;" ></i>
+      <div class="counter-item" data-goal="100">0</div>
+      <h2>COFFEE CUPS</h2>
+    </div>
+
+    <div class="four">
+      <i class="fa-solid fa-clock fa-spin" style="color: #000000; font-size: 70px; margin-left: 12px;"></i>
+      <div class="counter-item" data-goal="500">0</div>
+      <h2>HOURS</h2>
+    </div>
+  </div>
+
+  <script>
+
+const counterSection = document.querySelector(".counter");
+let isStarted = false;
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY >= counterSection.offsetTop+1700 ) {
+    if (!isStarted) {
+      startCount();
+    }
+    isStarted = true;
+  }
+});
+
+
+function startCount() {
+  const counterItems = document.querySelectorAll(".counter-item");
+  counterItems.forEach((item) => {
+    const goal = item.dataset.goal;
+    let count = setInterval(() => {
+      item.textContent++;
+      if (item.textContent == goal) {
+        clearInterval(count);
+      }
+    }, 2000 / goal);
+  });
+}
+
+
+  </script>
+
+
+
+
+<section class="form">
+
+  <br> <br>
+  <h3>CONTACT</h3>
+  <h1>I'd Love To Hear From You.</h1>
+
+
+  
+<div class="container">
+ 
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Email</label>
+    <input type="email" id="lname" name="lastname" placeholder="Your Email..">
+
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+</section>
+
+
+
+
+<section>
+  <div class="dis">
+ 
+
+
+  
+<br><br>
+  
+  
+  <div class="oo">
+    <br>
+    <br>
+  
+    <i class="fa-solid fa-location-dot fa-flip" style="font-size: 40px;margin-left: 90px;margin-bottom: 40px;"></i>
+    <h5>WHERE TO FIND ME</h5>
+    <h6>Everywhere 😅✌🏽</h6>
+  
+  </div>
+  
+  
+  <div class="tt"><br>
+    <br>
+  
+
+    <i class="fa-solid fa-envelope fa-bounce" style="font-size: 40px;margin-left: 110px;margin-bottom: 40px;"></i>
+    <h5>EMAIL ME AT</h5>
+    <h6>abdalfatah.aljuaidi@gmail.com</h6>
+  
+  </div>
+  
+  
+  <div class="hh"><br>
+    <br>
+  
+
+    <i class="fa-solid fa-phone fa-shake" style="font-size: 40px;margin-left: 50px;margin-bottom: 40px;"></i>
+    <h5>CALL ME AT</h5>
+    <h6>00962 78 24 07 533</h6>
+  
+    <br><br> </div>
+</div>
+</section>
+
+
+<section class="end">
+
+  <h4>© Copyright MRERROR 2023.</h4>
+  <div class="icon">
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+  </div>
+</section>
+
+
+
+</body>
+</html>
